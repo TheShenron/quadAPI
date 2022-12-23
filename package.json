@@ -1,21 +1,22 @@
 {
-  "name": "chat-app",
+  "name": "masai-chat",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [
     "mern",
-    "chat-app"
+    "masai chat"
   ],
-  "author": "Piyush Agarwal",
+  "author": "Gourav",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
